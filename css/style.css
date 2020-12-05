@@ -19,11 +19,29 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--FiddlersCoveRegular-Mgge);
+    /* font: font-style font-weight font-size/line-height font-family */
     font-family: var(--FiddlersCoveRegular-Mgge);
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
     color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--primary-color_2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+    
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--primary-color_2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
 
 /* End Navigation */
