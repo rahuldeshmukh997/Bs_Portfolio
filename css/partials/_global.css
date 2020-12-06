@@ -73,3 +73,7 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--FiddlersCoveRegular-Mgge);
 }
+
+.font-FiddlersCoveRegular-Mgge{
+    font-family: var(--FiddlersCoveRegular-Mgge);
+}
