@@ -77,3 +77,12 @@ p.para{
 .font-FiddlersCoveRegular-Mgge{
     font-family: var(--FiddlersCoveRegular-Mgge);
 }
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
