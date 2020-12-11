@@ -23,4 +23,20 @@ $(document).ready(function(){
         gallery:{enabled:true}
     });
 
+    // Owl Carousel
+    $('.site-main .about-area .owl-carousel').owlCarousel({
+        // $(".owl-carousel").owlCarousel();
+        loop:true,
+        autoplay:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            544:{
+                items:2
+            }
+        }
+    });
+
 });
