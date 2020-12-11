@@ -14,4 +14,13 @@ $(document).ready(function(){
 
         return false;
     })
+
+
+    $('.project-HTMLTextAreaElement .button-group #btn1').trigger('click');
+
+    $('.project-area .grid .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery:{enabled:true}
+    });
+
 });
