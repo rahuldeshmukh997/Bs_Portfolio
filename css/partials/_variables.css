@@ -16,7 +16,8 @@ html,body{
     --border-color: #201f1f17;
     --grdient-color: linear-gradient(90deg, #4458dc, #854fee, 100%);
     --shadow-color:0px 10px 30px rgba(118,85,225,0.3);
-    --box-shadow:0px 10px 30px rgba(57,56,61,0.205);
+    /* --box-shadow:0px 10px 30px rgba(57,56,61,0.205); */
+    --box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
     /* Font Family Variables */
     --FiddlersCoveRegular-Mgge:"FiddlersCoveRegular-Mgge",cursive;

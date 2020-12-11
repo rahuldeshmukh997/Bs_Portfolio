@@ -209,7 +209,7 @@
 }
 
 .site-main .services-area .services:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow); 
 }
 
 /* Project Area */
@@ -232,5 +232,14 @@
 .site-main .project-area .grid .our-project > .title h4{
     font:normal 700 25px/12px var(--FiddlersCoveRegular-Mgge);
 }
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1);
+    filter: drop-shadow(1px 8px 30x #b1afaf);  
+    transition: box-shadow 0.1s ease; 
+    box-shadow: var(--box-shadow); 
+    
+}
+
 
 /* End Project Area */
