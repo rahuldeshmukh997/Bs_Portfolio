@@ -31,12 +31,12 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0:{
-                items:1
+                items:0
             },
             544:{
                 items:2
             }
         }
     });
-
+    
 });
