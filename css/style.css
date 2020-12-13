@@ -320,11 +320,17 @@
     padding: 7rem 2rem;
 }
 
+/* End Subscribe Me */
+
 /* Footer-area */
 
 footer .footer-area{
     padding: 5rem 0;
     background: url(/images/footer-bg.png) no-repeat;
+}
+
+.footer-area .site-logo > a{
+    text-decoration: none;
 }
 
 .footer-area .social h5{
@@ -346,7 +352,5 @@ footer .footer-area{
 }
 
 /* End Footer-area */
-
-/* End Subscribe Me */
 
 /* End Project Area */
