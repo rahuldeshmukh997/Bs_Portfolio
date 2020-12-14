@@ -22,6 +22,10 @@
     .site-main > .services-area .services{
         width: 13rem;
     }
+
+    .navbar-brand h1{
+        float: left;
+    }
 }
 
 /* 792px or less than that */
