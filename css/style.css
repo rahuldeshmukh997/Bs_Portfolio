@@ -52,11 +52,6 @@
 
 /* Banner Area */
 
-.site-main .site-banner{
-    background: url(/images/banner/banner_2.jpg) no-repeat 0% 50%;
-    /* background-position: 0% 50%; */
-}
-
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
